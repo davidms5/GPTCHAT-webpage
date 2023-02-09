@@ -14,10 +14,10 @@ const NewMenu = () =>(
 )
 
 const Navbar =() =>{
+  const [menu, setMenu] = useState(false);
+
     return(
-      const [menu, setMenu] = useState(false);
-
-
+      
         <div className="gpt3__navbar">
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
@@ -33,12 +33,16 @@ const Navbar =() =>{
               </div>
               <div className='gpt3__navbar-menu'>
                 {menu ? <RiCloseLine color='#fff' size={27} onClick={() => setMenu(false)}/>
-                : <RiMenu3Line color='#fff' size={27} onClick={()=> setMenu(true)}/}
+                : <RiMenu3Line color='#fff' size={27} onClick={()=> setMenu(true)}/>}
 
                 {menu && (
                   <div className='gpt3__navbar-menu_container scale-up-center'> 
                   <div className='gpt3__navbar-menu_container-links'>
                   <NewMenu/>
+                  <div className="gpt3__navbar-menu_container-links-sign">
+               <p> ingresar </p> 
+                <button type='button'> registrarse </button>
+                  </div>
                   </div>
                   </div>
                 )}
