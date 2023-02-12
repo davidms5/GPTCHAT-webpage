@@ -13,7 +13,6 @@ function App() {
       <Header/>
       </div>
       <Brand/>
-      <Articulo/>
       <WhatGPT3/>
       <Features />
       <Posibility />

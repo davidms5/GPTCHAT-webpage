@@ -9,7 +9,7 @@ const Brand =() =>{
           <img src={google} alt='google'/>
       </div>
       <div>
-      │ <img src={slack} alt='slack'/>
+       <img src={slack} alt='slack'/>
 
       </div>
       <div>
@@ -21,7 +21,7 @@ const Brand =() =>{
       <div>
       <img src={shopify} alt='shopify'/>
       </div>
-            articulos
+        
         </div>
     )
 }
