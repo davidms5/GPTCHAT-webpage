@@ -23,8 +23,8 @@ const Features =() =>{
     return(
         <div className="gpt3__features section__padding" id="features">
             <div className="gpt3__features-heading">
-                <h1 className="gradient__text">el futuro el ahora y solo necesitas asimilarlo. Adentrate en el futuro hoy</h1>
-                <p>solicita acceso anticipado para ingresar</p>
+                <h1 className="gradient__text">the future the now and you just need to assimilate it. Step into the future today</h1>
+                <p>request early access here</p>
             </div>
             <div className="gpt3__features-container">
                 {FeaturesData.map((item, index) => <Feature titulo={item.titulo} texto={item.texto} key={item.titulo+index}/>)}

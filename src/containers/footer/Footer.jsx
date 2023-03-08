@@ -6,11 +6,11 @@ const Footer =() =>{
     return(
         <div className="gpt3__footer section__padding">
             <div className="gpt3__footer-heading">
-                <h1 className="gradient__text"> quieres ingresar al futuro antes que nadie?</h1>
+                <h1 className="gradient__text"> Do you want to enter the future before anyone else?</h1>
             </div>
 
             <div className="gpt3__footer-btn">
-            <p>solicita acceso anticipado</p>
+            <p>request early access</p>
             </div>
 
             <div className="gpt3__footer-links">
@@ -22,23 +22,23 @@ const Footer =() =>{
                 <div className="gpt3__footer-links_div">
                     <h4>Links</h4>
                     <p>Overons</p>
-                    <p>Redes Sociales</p>
+                    <p>Social Media</p>
                     <p>Counters</p>
-                    <p>Contactos</p>
+                    <p>Contact Us</p>
                     
                 </div>
 
                 <div className="gpt3__footer-links_div">
-                    <h4>Compañia</h4>
-                    <p>Terminos y Condiciones</p>
+                    <h4>Company</h4>
+                    <p>Terms & Conditions</p>
                     <p>
-                        Politica De Privacidad
+                        Privacy Policy
                     </p>
-                    <p>Contactos</p>
+                    <p>Contact Us</p>
                 </div>
 
                 <div className="gpt3__footer-links_div">
-                    <h4>Contáctanos</h4>
+                    <h4>Contact Us</h4>
                     <p>Crechterwoord K12 182 DK Alknjkcb</p>
                     <p>085-132567</p>
                     <p>info@payme.net</p>

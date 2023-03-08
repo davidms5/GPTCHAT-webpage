@@ -5,11 +5,11 @@ import logo from '../../assets/logo.svg'
 
 const NewMenu = () =>(
   <>
-   <p><a href="#home"> inicio </a></p>
-   <p><a href="#wgpt3"> que es GPT3?</a></p>
+   <p><a href="#home"> home </a></p>
+   <p><a href="#wgpt3"> what is GPT3?</a></p>
    <p><a href="#posibility"> Open AI </a></p>
-   <p><a href="#features"> casos de estudio </a></p>
-   <p><a href="#blog"> librería </a></p>
+   <p><a href="#features"> study cases </a></p>
+   <p><a href="#blog"> library </a></p>
   </>
 )
 
@@ -28,8 +28,8 @@ const Navbar =() =>{
                 </div>
             </div>
                 <div className="gpt3__navbar-sign">
-               <p> ingresar </p> 
-                <button type='button'> registrarse </button>
+               <p> Sign In </p> 
+                <button type='button'> Sign Up </button>
               </div>
               <div className='gpt3__navbar-menu'>
                 {menu ? <RiCloseLine color='#fff' size={27} onClick={() => setMenu(false)}/>
@@ -40,8 +40,8 @@ const Navbar =() =>{
                   <div className='gpt3__navbar-menu_container-links'>
                   <NewMenu/>
                   <div className="gpt3__navbar-menu_container-links-sign">
-               <p> ingresar </p> 
-                <button type='button'> registrarse </button>
+               <p> Sign In </p> 
+                <button type='button'> Sign Up</button>
                   </div>
                   </div>
                   </div>

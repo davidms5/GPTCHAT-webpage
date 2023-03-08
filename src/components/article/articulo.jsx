@@ -13,7 +13,7 @@ const Articulo =({imgUrl, date, titulo}) =>{
                     <p>{date}</p>
                     <h3>{titulo}</h3>
                 </div>
-                <p>Leer artículo completo...</p>
+                <p>Read Full Article...</p>
 
             </div>
         </div>
